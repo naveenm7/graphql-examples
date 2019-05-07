@@ -1,0 +1,213 @@
+{
+  "info": "Default Info",
+  "authors": [
+    {
+      "id": "001",
+      "name": "Naveen"
+    },
+    {
+      "id": "002",
+      "name": "Naxor"
+    }
+  ],
+  "books": [
+    {
+      "id": "101",
+      "title": "Hacking tut",
+      "author": {
+        "id": "001",
+        "name": "Naveen"
+      }
+    },
+    {
+      "id": "102",
+      "title": "Lost Symbol",
+      "author": {
+        "id": "002",
+        "name": "Naxor"
+      }
+    },
+    {
+      "id": "103",
+      "title": "Lost Arcs",
+      "author": {
+        "id": "002",
+        "name": "Naxor"
+      }
+    }
+  ],
+  "humans": [
+    {
+      "data": {
+        "id": "H1",
+        "name": "Human-1",
+        "appearsIn": [
+          {
+            "title": "E-1"
+          }
+        ],
+        "totalCredits": 5
+      }
+    },
+    {
+      "data": {
+        "id": "H1",
+        "name": "Human-1",
+        "appearsIn": [
+          {
+            "title": "E-1"
+          }
+        ],
+        "totalCredits": 5
+      }
+    },
+    {
+      "data": {
+        "id": "H1",
+        "name": "Human-1",
+        "appearsIn": [
+          {
+            "title": "E-1"
+          }
+        ],
+        "totalCredits": 5
+      }
+    },
+    {
+      "id": "H1",
+      "name": "Human-1",
+      "appearsIn": [
+        {
+          "title": "E-1"
+        }
+      ],
+      "totalCredits": 5
+    },
+    {
+      "id": "H1",
+      "name": "Human-1",
+      "appearsIn": [
+        {
+          "title": "E-1"
+        }
+      ],
+      "totalCredits": 5
+    },
+    {
+      "id": "H2",
+      "name": "Human-2",
+      "appearsIn": [
+        {
+          "title": "E-2"
+        }
+      ],
+      "totalCredits": 8
+    },
+    {
+      "id": "H3",
+      "name": "Human-3",
+      "appearsIn": [
+        {
+          "title": "E-3"
+        }
+      ],
+      "totalCredits": 8
+    }
+  ],
+  "droids": [
+    {
+      "id": "H3",
+      "name": "Human-3",
+      "appearsIn": [
+        {
+          "title": "E-3"
+        }
+      ],
+      "primaryFunction": "Shoot"
+    },
+    {
+      "id": "D3",
+      "name": "Droid-3",
+      "appearsIn": [
+        {
+          "title": "E-3"
+        }
+      ],
+      "primaryFunction": "Shoot"
+    },
+    {
+      "id": "D2",
+      "name": "Droid-2",
+      "appearsIn": [
+        {
+          "title": "E-2"
+        }
+      ],
+      "primaryFunction": "Melee"
+    },
+    {
+      "id": "D1",
+      "name": "Droid-1",
+      "appearsIn": [
+        {
+          "title": "E-1"
+        }
+      ],
+      "primaryFunction": "Kick"
+    }
+  ],
+  "persons": [
+    {
+      "id": "P1",
+      "name": "Naveen"
+    },
+    {
+      "id": "P2",
+      "name": "Naxor"
+    },
+    {
+      "id": "P3",
+      "name": "Kumar"
+    },
+    {
+      "id": "P4",
+      "name": "Kishore"
+    },
+    {
+      "id": "P6"
+    }
+  ],
+  "messages": [
+    {
+      "id": "M1",
+      "description": "Finish Home work",
+      "person": {
+        "id": "P1",
+        "name": "Naveen"
+      }
+    },
+    {
+      "id": "M2",
+      "description": "Drink tea",
+      "person": {
+        "id": "P1",
+        "name": "Naveen"
+      }
+    },
+    {
+      "id": "M3",
+      "description": "Drink Milk",
+      "person": {
+        "id": "P1",
+        "name": "Naveen"
+      }
+    },
+    {
+      "id": "M5",
+      "description": "Kill time",
+      "person": {
+        "id": "P6"
+      }
+    }
+  ]
+}

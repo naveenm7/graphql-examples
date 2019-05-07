@@ -1,0 +1,22 @@
+{
+  "name": "graphql-js-example",
+  "version": "1.0.0",
+  "description": "This project explains the basic CRUD operations using graphql.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server1": "node server-1.js",
+    "server2": "node server-2.js"
+  },
+  "keywords": [
+    "graphql.js",
+    "graphql"
+  ],
+  "author": "Naveen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1"
+  }
+}

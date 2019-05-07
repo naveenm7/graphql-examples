@@ -1,0 +1,16 @@
+type User {
+    id: ID! @id
+    name: String
+    email: String! @unique
+    password: String!
+    toDoMessages: [ToDoMessage!]!
+    createdAt: DateTime! @createdAt
+}
+
+type ToDoMessage {
+    id: ID! @id
+    description: String
+    status: String
+    user: User! @relation(link: INLINE)
+    createdAt: DateTime! @createdAt
+}

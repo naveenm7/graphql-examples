@@ -1,0 +1,27 @@
+{
+  "name": "graphql-todo-example",
+  "version": "1.0.0",
+  "description": "This project contains a graphql-todo example ( graphql-yoga )",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/server.js"
+  },
+  "keywords": [
+    "graphql-yoga",
+    "todo"
+  ],
+  "author": "Naveen",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/ws": "^6.0.1",
+    "apollo-server-errors": "^2.2.2-alpha.1",
+    "bcrypt": "^3.0.6",
+    "graphql-yoga": "^1.17.4",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "prisma-client-lib": "^1.32.0",
+    "typescript": "^3.4.5"
+  }
+}

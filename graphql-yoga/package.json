@@ -1,0 +1,25 @@
+{
+  "name": "graphql-yoga-examples",
+  "version": "1.0.0",
+  "description": "This project contains graphql-yoga examples",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server1": "node server-1.js",
+    "server2": "node server-2.js",
+    "server3": "node server-3.js",
+    "server4": "node server-4.js",
+    "server5": "node server-5.js"
+  },
+  "keywords": [
+    "graphql-yoga",
+    "graphql"
+  ],
+  "author": "Naveen",
+  "license": "ISC",
+  "dependencies": {
+    "data-store": "^3.1.0",
+    "graphql-yoga": "^1.17.4",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
