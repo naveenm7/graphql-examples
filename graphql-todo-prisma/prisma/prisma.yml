@@ -2,7 +2,8 @@
 #endpoint: ''
 #endpoint: ''
 #endpoint: ''
-endpoint: https://eu1.prisma.sh/nmanikannan-e7649f/graphql-todo/dev
+#endpoint: ''
+endpoint: https://eu1.prisma.sh/nmanikannan-e7649f/graphql-todo-prisma/dev
 
 # Points to the file that contains your datamodel
 datamodel: datamodel.prisma

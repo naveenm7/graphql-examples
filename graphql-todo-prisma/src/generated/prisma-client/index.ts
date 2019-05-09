@@ -935,6 +935,6 @@ export const models: Model[] = [
 export const Prisma = makePrismaClientClass<ClientConstructor<Prisma>>({
   typeDefs,
   models,
-  endpoint: `https://eu1.prisma.sh/nmanikannan-e7649f/graphql-todo/dev`
+  endpoint: `https://eu1.prisma.sh/nmanikannan-e7649f/graphql-todo-prisma/dev`
 });
 export const prisma = new Prisma();
